@@ -1,0 +1,50 @@
+.homepage-container {
+  width: 1000px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  background-color: rgb(240, 58, 58);
+  &__cards1 {
+    width: 250px;
+    border: 1px solid;
+    margin-right: 10px;
+    background-color: #fff;
+    h4{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &__card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 16px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen;
+    margin: 10px 0px;
+  }
+  &__cards2 {
+    background-color: #fff;
+    width: 250px;
+    border: 1px solid;
+    margin-right: 10px;
+    h4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &__cards3{
+    background-color: #fff;
+    width: 250px;
+    border: 1px solid;
+    h4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 100px;
+    button{
+        padding: 10px 140px;
+        color: #fff;
+        background-color: black;
+    }
+}

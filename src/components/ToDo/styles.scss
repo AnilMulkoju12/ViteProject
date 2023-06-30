@@ -1,0 +1,16 @@
+.todo_container{
+    display:flex ;
+    justify-content: center;
+    margin-top: 100px;
+    input{
+        padding: 10px 200px;
+    }
+    button{
+        padding: 10px;
+    }
+    &__todo-list{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
